@@ -42,25 +42,25 @@ body {
 }
 
 article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
     display: block;
 }
 
 audio,
-canvas,
-progress,
-video {
+canvas,
+progress,
+video {
     display: inline-block;
     vertical-align: baseline;
 }
@@ -71,7 +71,7 @@ audio:not([controls]) {
 }
 
 [hidden],
-template {
+template {
     display: none;
 }
 
@@ -80,7 +80,7 @@ a {
 }
 
 a:active,
-a:hover {
+a:hover {
     outline: 0;
 }
 
@@ -89,7 +89,7 @@ abbr[title] {
 }
 
 b,
-strong {
+strong {
     font-weight: bold;
 }
 
@@ -112,7 +112,7 @@ small {
 }
 
 sub,
-sup {
+sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -129,7 +129,7 @@ sub {
 
 img {
     border: 0;
-    margin-bottom: 100px;
+    margin-bottom: -149px;
     padding-top: 0px;
     margin-top: 126px;
     left: -8px;
@@ -154,18 +154,18 @@ pre {
 }
 
 code,
-kbd,
-pre,
-samp {
+kbd,
+pre,
+samp {
     font-family: monospace, monospace;
     font-size: 1em;
 }
 
 button,
-input,
-optgroup,
-select,
-textarea {
+input,
+optgroup,
+select,
+textarea {
     color: inherit;
     font: inherit;
     margin: 0;
@@ -176,25 +176,25 @@ button {
 }
 
 button,
-select {
+select {
     text-transform: none;
 }
 
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
 }
 
 button[disabled],
-html input[disabled] {
+html input[disabled] {
     cursor: default;
 }
 
 button::-moz-focus-inner,
-input::-moz-focus-inner {
+input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
@@ -204,13 +204,13 @@ input {
 }
 
 input[type="checkbox"],
-input[type="radio"] {
+input[type="radio"] {
     box-sizing: border-box;
     padding: 0;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
 
@@ -220,7 +220,7 @@ input[type="search"] {
 }
 
 input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
@@ -249,7 +249,7 @@ table {
 }
 
 td,
-th {
+th {
     padding: 0;
 }
 
@@ -546,8 +546,8 @@ body {
 }
 
 .header--nav-toggle span,
-.header--nav-toggle::before,
-.header--nav-toggle::after {
+.header--nav-toggle::before,
+.header--nav-toggle::after {
     content: "";
     position: relative;
     width: 16px;
@@ -699,8 +699,8 @@ body {
     display: flex;
     width: 900px;
     max-width: 75%;
-    height: 90%;
-    -webkit-box-orient: normal;
+    height: 100%;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -709,7 +709,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 @media (max-width: 1180px){
@@ -721,11 +721,22 @@ body {
 .intro--banner::before {
     content: "";
     position: absolute;
-    bottom: 105px;
+    bottom: 20px;
     left: -15px;
     right: 0;
     height: 2px;
     background-color: #282828;
+}
+
+.intro--banner::after {
+    content: "";
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    width: 30px;
+    height: 4px;
+    background-color: #0f33ff;
+    padding-left: 1px;
 }
 
 .intro--banner h1 {
@@ -886,7 +897,7 @@ body {
     }
 
     .intro--banner::before,
-        .intro--banner::after {
+    .intro--banner::after {
         display: none;
     }
 
@@ -1028,7 +1039,7 @@ body {
 }
 
 .work--lockup .slider--next,
-.work--lockup .slider--prev {
+.work--lockup .slider--prev {
     position: absolute;
     top: 160px;
     display: -webkit-box;
@@ -1051,7 +1062,7 @@ body {
 }
 
 .work--lockup .slider--next svg,
-.work--lockup .slider--prev svg {
+.work--lockup .slider--prev svg {
     width: 20px;
     fill: #fff;
 }
@@ -1076,7 +1087,7 @@ body {
     }
 
     .work--lockup .slider--next,
-        .work--lockup .slider--prev {
+    .work--lockup .slider--prev {
         top: 130px;
     }
 }
@@ -1097,7 +1108,7 @@ body {
     }
 
     .work--lockup .slider--next,
-        .work--lockup .slider--prev {
+    .work--lockup .slider--prev {
         top: 105px;
     }
 }
@@ -1108,7 +1119,7 @@ body {
     }
 
     .work--lockup .slider--item-left,
-        .work--lockup .slider--item-right {
+    .work--lockup .slider--item-right {
         display: none;
     }
 }
@@ -1407,7 +1418,7 @@ body {
 }
 
 .contact--lockup .modal--information p,
-.contact--lockup .modal--information a {
+.contact--lockup .modal--information a {
     display: block;
     margin: 14px 0;
     text-decoration: none;
@@ -1614,7 +1625,7 @@ body {
 }
 
 .work-request--information .information-name,
-.work-request--information .information-email {
+.work-request--information .information-email {
     position: relative;
     width: 45%;
     height: 50px;
@@ -1623,7 +1634,7 @@ body {
 }
 
 .work-request--information input[type="text"],
-.work-request--information input[type="email"] {
+.work-request--information input[type="email"] {
     width: 100%;
     padding: 0 0 5px 0;
     background-color: transparent;
@@ -1633,7 +1644,7 @@ body {
 }
 
 .work-request--information input[type="text"]:focus,
-.work-request--information input[type="email"]:focus {
+.work-request--information input[type="email"]:focus {
     outline: none;
     background-color: #0c0c0c;
 }
@@ -1648,7 +1659,7 @@ body {
 }
 
 .work-request--information input:focus+label,
-.work-request--information input.has-value+label {
+.work-request--information input.has-value+label {
     top: -15px;
     font-size: 14px;
 }
@@ -1666,7 +1677,7 @@ body {
     }
 
     .work-request--options .options-a,
-        .work-request--options .options-b {
+    .work-request--options .options-b {
         display: block;
         width: auto;
     }
@@ -1703,7 +1714,7 @@ body {
     }
 
     .work-request--information .information-name,
-        .work-request--information .information-email {
+    .work-request--information .information-email {
         height: 40px;
         font-size: 24px;
     }
