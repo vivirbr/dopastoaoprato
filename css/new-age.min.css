@@ -46,7 +46,7 @@ a {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
-    color: #ffffff;
+    color: #35454d;
 }
 
 a:focus,
@@ -183,7 +183,7 @@ header {
     overflow-y: hidden;
     background: url("../img/logos/darktransparent.png"), linear-gradient(to left,#35454d,#f06260);
     color: #ffffff;
-	background-size: contain;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -369,7 +369,7 @@ section.cta {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(../img/bg-cta.jpg);
+    background-image: url(../img/Imagens/mt_cattle.jpg);
     padding: 250px 0;
 }
 
@@ -386,7 +386,9 @@ section.cta .cta-content h2 {
 
 @media (min-width:768px){
     section.cta .cta-content h2 {
-        font-size: 80px;
+        font-size: 50px;
+        padding-right: 0px;
+        padding-bottom: 0px;
     }
 }
 
@@ -503,7 +505,7 @@ footer ul li a:hover {
 
 .btn-xl {
     padding: 15px 45px;
-    font-size: 11px;
+    font-size: 30px;
 }
 
 ::-moz-selection {
@@ -524,6 +526,8 @@ footer ul li a:hover {
 img::selection {
     color: #fff;
     background: 0 0;
+    width: 200px;
+    height: 200px;
 }
 
 img::-moz-selection {
