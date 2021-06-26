@@ -151,7 +151,6 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background-image: url(..img/logos/darktransparent.png);
   background: #3a373b;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #35454d, #f06260);
