@@ -183,8 +183,7 @@ header {
     overflow-y: hidden;
     background: url("../img/logos/darktransparent.png"), linear-gradient(to left,#35454d,#f06260);
     color: #ffffff;
-	background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header .header-content {
