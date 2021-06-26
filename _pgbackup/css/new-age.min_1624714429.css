@@ -181,8 +181,10 @@ header {
     width: 100%;
     min-height: auto;
     overflow-y: hidden;
+    background: url(../img/bg-pattern.png),##35454d;
+    background: url(../img/bg-pattern.png),-webkit-linear-gradient(to left,##35454d,#f06260);
     background: url(../img/bg-pattern.png),linear-gradient(to left,#35454d,#f06260);
-    color: #ffffff;
+    color: #fff;
 }
 
 header .header-content {
@@ -469,7 +471,7 @@ footer ul li a:hover {
 .bg-primary {
     background: #fdcc52;
     background: -webkit-linear-gradient(#fdcc52,#fdc539);
-    background: linear-gradient(#35454d,#35454d);
+    background: linear-gradient(#fdcc52,#fdc539);
 }
 
 .text-primary {
@@ -511,7 +513,7 @@ footer ul li a:hover {
 }
 
 ::selection {
-    color: #ffffff;
+    color: #fff;
     text-shadow: none;
     background: #222;
 }
