@@ -181,9 +181,8 @@ header {
     width: 100%;
     min-height: auto;
     overflow-y: hidden;
-    background: url("../img/logos/darktransparent.png"), linear-gradient(to left,#35454d,#f06260);
+    background: url(../img/bg-pattern.png),linear-gradient(to left,#35454d,#f06260);
     color: #ffffff;
-    background-size: cover;
 }
 
 header .header-content {
