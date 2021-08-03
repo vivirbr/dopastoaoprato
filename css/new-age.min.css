@@ -51,7 +51,7 @@ a {
 
 a:focus,
 a:hover {
-    color: #fcbd20;
+    color: #f06260;
 }
 
 hr {
@@ -92,7 +92,7 @@ p {
 
 .navbar-default .navbar-header .navbar-brand:focus,
 .navbar-default .navbar-header .navbar-brand:hover {
-    color: #fcbd20;
+    color: #f06260;
 }
 
 .navbar-default .navbar-header .navbar-toggle {
@@ -112,12 +112,12 @@ p {
 
 .navbar-default .nav>li>a:focus:hover,
 .navbar-default .nav>li>a:hover {
-    color: #fdcc52;
+    color: #f06260;
 }
 
 .navbar-default .nav>li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #fdcc52!important;
+    color: #f06260!important;
     background-color: transparent;
 }
 
@@ -162,7 +162,7 @@ p {
 
     .navbar-default.affix .navbar-header .navbar-brand:focus,
     .navbar-default.affix .navbar-header .navbar-brand:hover {
-        color: #fdcc52;
+        color: #f06260;
     }
 
     .navbar-default.affix .nav>li>a,
@@ -172,7 +172,7 @@ p {
 
     .navbar-default.affix .nav>li>a:focus:hover,
     .navbar-default.affix .nav>li>a:hover {
-        color: #fdcc52;
+        color: #f06260;
     }
 }
 
@@ -272,6 +272,27 @@ section {
 
 section h2 {
     font-size: 50px;
+}
+
+section.faq h2 {
+    font-size: 60px;
+    color:rgba(255, 255, 255, 0.7);
+}
+section.faq h3 {
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.7)
+}
+section.faq h4 {
+    font-size: 30px;
+    color:rgba(255, 255, 255, 0.7)
+}
+
+section.faq {
+    /* background: linear-gradient(to left,#35454d,#f06260); */
+    background: url("../img/logos/darktransparent.png"), linear-gradient(to left,#35454d,#f06260);
+    padding: 150px 0;
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 
 section.download {
@@ -510,6 +531,11 @@ footer ul li a:hover {
 .btn-xl {
     padding: 15px 45px;
     font-size: 20px;
+}
+
+.btn-s {
+    padding: 10px 25px;
+    font-size: 10px;
 }
 
 ::-moz-selection {
