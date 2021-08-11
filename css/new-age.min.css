@@ -98,7 +98,7 @@ p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: #f8f8f8;
+    color: #dfdfdf;
 }
 
 .btn,
@@ -150,9 +150,9 @@ p {
         border-color: transparent;
     }
 
-    .navbar-default .navbar-header .navbar-brand {
+    /* .navbar-default .navbar-header .navbar-brand {
         color: rgba(255, 255, 255, 0.7);
-    }
+    } */
 
     .navbar-default .navbar-header .navbar-brand:focus,
     .navbar-default .navbar-header .navbar-brand:hover {
@@ -170,7 +170,7 @@ p {
     }
 
     .navbar-default.affix {
-        background-color: #f2f2f2;
+        background-color: #35454d38;
         border-color: rgba(34,34,34,.1);
     }
 
@@ -285,7 +285,7 @@ section.contact {
 
 section {
     background: #c2c2c20b;
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 section h2 {
@@ -315,7 +315,7 @@ section.faq {
 
 section.bd {
     background: url("../img/logos/darktransparent.png"), linear-gradient(to left,#35454d,#ccc);
-    padding: 230px 0;
+    padding: 250px 0;
     background-position: right top;
     background-repeat: no-repeat;
 }
@@ -400,6 +400,11 @@ section.cta .cta-content h2 {
     position: relative;
 }
 
+section.cta h4 {
+    font-size: 40px;
+    color:#ffffffec
+}
+
 section.features .feature-item h3 {
     font-size: 30px;
 }
@@ -420,7 +425,7 @@ section.cta {
     -o-background-size: cover;
     background-position: center;
     background-image: url(../img/Imagens/mt_cattle.jpg);
-    padding: 250px 0;
+    padding: 150px 0;
 }
 
 section.cta .cta-content {
