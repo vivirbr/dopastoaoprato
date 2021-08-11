@@ -284,13 +284,20 @@ section.faq h3 {
 }
 section.faq h4 {
     font-size: 30px;
-    color:rgba(255, 255, 255, 0.7)
+    color:#ffffffb3
 }
 
 section.faq {
     /* background: linear-gradient(to left,#35454d,#f06260); */
     background: url("../img/logos/darktransparent.png"), linear-gradient(to left,#35454d,#f06260);
-    padding: 150px 0;
+    padding: 100px 0;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+section.bd {
+    background: url("../img/logos/darktransparent.png"), linear-gradient(to left,#35454d,#ccc);
+    padding: 230px 0;
     background-position: right top;
     background-repeat: no-repeat;
 }
@@ -526,6 +533,7 @@ footer ul li a:hover {
 
 .btn {
     border-radius: 300px;
+    white-space: normal;
 }
 
 .btn-xl {
