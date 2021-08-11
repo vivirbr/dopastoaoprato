@@ -68,9 +68,27 @@
                         <div class="header-content"> 
                             <div class="header-content-inner"> 
                                 <h1>Um aplicativo criado para aumentar a transparência na cadeia da carne e apoiar o consumo consciente no Brasil</h1> 
-                                <a href="#download" class="btn btn-outline btn-xl page-scroll">Baixe agora o aplicativo</a> 
-                            </div>                             
-                        </div>                         
+                                <head>
+                                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                                </head>
+                                <body style="text-align:center">
+                                    <div class="popup" onclick="myFunction()">Assista ao vídeo
+                                        <span class="popuptext" id="myPopup">
+                                            <div class="iframe-container">
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZdFWPtM5itc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </span>
+                                    </div>
+                                    <script>
+                                        // When the user clicks on div, open the popup
+                                        function myFunction() {
+                                        var popup = document.getElementById("myPopup");
+                                        popup.classList.toggle("show");
+                                        }
+                                    </script>
+                                </body>
+                            </div>                       
+                        </div>                      
                     </div>                     
                     <div class="col-sm-5"> 
                         <div class="device-container"> 
@@ -78,7 +96,7 @@
                                 <div class="device"> 
                                     <div class="screen"> 
                                         <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->                                         
-                                        <img src="img/Imagens/masterboi_screenshot.png" class="img-responsive" alt="" width="500"> 
+                                        <img src="img/Imagens/masterboi_screenshot.png" class="img-responsive" alt="" width="400"> 
                                     </div>                                     
                                     <div class="button"> 
                                         <!-- You can hook the "home button" to some JavaScript events or just remove it -->                                         
