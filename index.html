@@ -1,255 +1,271 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Do pasto ao prato - based on Greatness by FreeHTML5.co
+-->
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Do pasto ao prato &mdash; based on Greatnesss FreeHTML5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Do pasto ao prato website" />
+	<meta name="keywords" content="consumo, sustentavel, aplicativo, supermercados, comida, carne, pecuaria, brasil" />
+	<meta name="author" content="Vivian Ribeiro" />
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Do Pasto ao Prato</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="lib/device-mockups/device-mockups.min.css">
-    <!-- Theme CSS -->
-    <link href="css/new-age.min.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-  <body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span> Menu
-            <i class="fa fa-bars"></i>
-          </button>
-          <a class="navbar-brand page-scroll" href="#page-top">Do Pasto ao Prato</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a class="page-scroll" href="https://play.google.com/store/apps/details?id=br.mapping.app">Download</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#features">O aplicativo</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#contact">Redes sociais</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="bd.html">Banco de dados</a>
-            </li>
-            <li>
-              <a class="nav-link" href="faq.html">FAQs</a>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-7">
-            <div class="header-content">
-              <div class="header-content-inner">
-                <h1>Um aplicativo criado para aumentar a transparência na cadeia da carne e apoiar o consumo consciente no Brasil</h1>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-                <head>
-                  <meta name="viewport" content="width=device-width, initial-scale=1">
-                </head>
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-                <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
-                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-                <link href="popup-video.css" rel="stylesheet">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-                <div class="content">
-                  <h2 href="#videoStory" class="button more" id="videoLink">Saiba mais! <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i></>
-                    <div id="videoStory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-                      <iframe class="embedded-video-16-9" src="https://www.youtube.com/embed/ZdFWPtM5itc" frameborder="0" allowfullscreen=""></iframe>
-                    </div>
-                </div>
+	<!-- Scroll js -->
+	<script src="js/page-scroll.js"></script>
 
-                <script>
-                  $('#videoLink')
-                    .magnificPopup({
-                      type: 'inline',
-                      midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-                    })
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-                </script>
+	</head>
+	<body>
+		
+	<div class="gtco-loader"></div>
+	
+	<div id="page">
+	<nav class="gtco-nav" role="navigation">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-xs-1">
+					<a href="index.html"><img id="gtco-logo" src="images/logo.svg"></a>
+				</div>
+				<div class="col-xs-8 text-right menu-1">
+					<ul>
+						<!-- <li class="active"><a href="index.html">O app</a></li> -->
+						<li><a class="page-scroll" href="#gtco-features-2">Indicadores</a></li>
+						<li><a class="page-scroll" href="#gtco-features-4">Compare</a></li>
+						<li><a class="page-scroll" href="#gtco-features-3">Baixe o app</a></li>
+						<li><a class="page-scroll" href="#gtco-features-5">Banco de dados</a></li>
+						<li><a class="page-scroll" href="#gtco-footer">Quem somos</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
 
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-5">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/Imagens/masterboi_screenshot.png" class="img-responsive" alt="" width="400">
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <section id="download" class="bg-primary download text-center text-muted">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h2 class="section-heading">Comece aqui a contribuir para um setor mais transparente</h2>
-            <p>O aplicativo está disponível nas versões Android e IOS</p>
-            <div class="badges">
-              <a class="badge-link" href="https://play.google.com/store/apps/details?id=br.mapping.app"><img src="img/icones/disponivel-google-play-badge.png" alt=""></a>
-              <a class="badge-link" href="#"><img src="img/icones/appstore_breve.png" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="features" class="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="section-heading">
-              <h2>Indicadores de risco e de ilegalidade</h2>
-              <a href="http://resources.trase.earth/documents/metodo_do_pasto_ao_prato.pdf"> Clique aqui para mais detalhes sobre o método </a>
-              <hr>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/Imagens/masterboi_screenshot.png" class="img-responsive" alt="">
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-8">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="feature-item">
-                    <img src="img/icones/deforestation%20(1).png" width="200" height="180" />
-                    <h3>Desmatamento</h3>
-                    <p class="text-muted">Área desmatada para pastagem na zona de compras dos frigoríficos entre 2016 e 2019 </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="feature-item">
-                    <img src="img/icones/document.png" width="200" height="180" />
-                    <h3>Inspeção sanitária</h3>
-                    <p class="text-muted">Número de multas pagas por cada frigorífico entre 2016 e 2019, segundo dados oficiais do Ministério da Agricultura, Pecuária e Abastecimento </p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="feature-item">
-                    <img src="img/icones/forest.png" width="200" height="180" />
-                    <h3>Queimadas</h3>
-                    <p class="text-muted">Área total queimada na zona de compra de cada frigorífico entre 2016 e 2019. Dados do MODIS publicados pelo INPE </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="feature-item">
-                    <img src="img/icones/surface1.png" width="200" height="180" />
-                    <h3>Trabalho escravo</h3>
-                    <p class="text-muted">Número de fazendas que são parte da cadeia de fornecimento dos frigoríficos e que foram autuadas pelo Ministério Público Federal (MPF) entre 2016 e 2019</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="bd" class="cta">
-      <div class="cta-content">
-        <div class="container">
-          <h4>Em breve</h4>
-          <h4>um banco de dados inédito, conectando frigoríficos aos mercados varejistas</h4>
-        </div>
-      </div>
-      <div class="overlay"></div>
-    </section>
-    <section id="contact" class="contact bg-primary">
-      <div class="container">
-        <h2>Siga nossas redes socias</h2>
-        <ul class="list-inline list-social">
-          <li class="social-twitter">
-            <a href="https://twitter.com/dopastoaoprato"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li class="social-instagram">
-            <a href="https://www.instagram.com/_dopastoaoprato/"><i class="fa fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <p>Do pasto ao prato <br> &copy; 2021 All Rights Reserved.</p>
-      </div>
-    </footer>
-    <!-- jQuery -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <!-- Theme JavaScript -->
-    <script src="js/new-age.min.js"></script>
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/dpap_bg1.jpg);">
+			<div class="gtco-container-2">
+				<div class="row">
+					<div class="col-md-7">
+						<h1>Ajude a criar uma pecuária mais sustentável</h1>
+						<img src="images/rabisco.svg" width="200" height="50" /> </br>
+						<p>Registre os selos presentes nos produtos e descubra mais sobre a origem e o impacto da sua carne </p>
+						<a href="https://play.google.com/store/apps/details?id=br.mapping.app&pli=1" class="btn btn-primary btn-lg">Google Play</a> 
+						<a href="https://apps.apple.com/br/app/do-pasto-ao-prato/id6443904139" class="btn btn-primary btn-lg">Apple Store</a>	
+					</div>
+					<div class="col-md-4">
+						<img src="images/ilust2.svg" width="620" height="515" />
+					</div>
+				</div>
+		</div>
+	</div>
+	</header>
+	
+	<div id="gtco-features">
+		<div class="gtco-container-4">
+			<div class="col-md-7">
+				<iframe width= "520" height="295" src="https://www.youtube.com/embed/ZdFWPtM5itc" style="margin-top: 0px"></iframe>
+				</div>
+			</div>
+			<div class="col-md-4" style="margin-bottom: 100px;" >
+				<h3>VEJA COMO FUNCIONA</h3>
+				<h2>Um aplicativo criado para aumentar a transparência na cadeia da carne</h2>
+				<p>Somos uma iniciativa não governamental e sem fins lucrativos, engajada em conectar sociedade e ciência para tornar o setor da carne no Brasil mais transparente e sustentável. Ao registrar os produtos em um supermercado, você passa a ser parte dessa transformação.</p>
+			</div>
+		</div>
+	</div>
+	<div id="gtco-features-2" style="padding-top: 50px; padding-bottom: 0px;">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-2 text-center gtco-heading-2">
+					<h4>O QUE ANALISAMOS?</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-2 text-center gtco-heading">
+					<h4>Indicadores de risco e de ilegalidade</h4>
+				</div>
+			</div>
+			<div class="row"></div>
+				<div class="col-md-6 gtco-heading">
+					<div class="row">
+						<div class="col-xs-2">
+							<a href="index.html"><img id="gtco-logo" src="images/ic1.svg" style="margin-top: 40px"></a>
+						</div>
+						<div class="col-xs-2 text-left menu-1">
+							<h2>Impacto ambiental</h2>
+							<p>A pecuária é a principal causa do desmatamento no Brasil, e este indicador mostra a área de desmatamento na zona de compras do frigorífico.</p> 
+						</div>>	
+				    </div>	
+					<img src="images/Line 92.svg" width="520" height="" />
+					<div class="row">
+						<div class="col-xs-2">
+							<a href="index.html"><img id="gtco-logo" src="images/ic2.svg" style="margin-top: 40px"></a>
+						</div>
+						<div class="col-xs-2 text-left menu-1">
+							<h2>Trabalho escravo</h2>
+							<p>Este indicador reflete o número de fazendas autuadas por condições de trabalho análogas à escravidão que fornecem ao frigorífico.</p> 
+						</div>>	
+				    </div>
+					<img src="images/Line 92.svg" width="520" height="" />
+					<div class="row">
+						<div class="col-xs-2">
+							<a href="index.html"><img id="gtco-logo" src="images/ic3.svg" style="margin-top: 40px"></a>
+						</div>
+						<div class="col-xs-2 text-left menu-1">
+							<h2>Multas de inspeção sanitária</h2>
+							<p>Este indicador revela o número de multas pagas por frigorífico por má higiene ou desrespeito ao bem-estar animal, segundo o Ministério da Agricultura, Pecuária e Abastecimento.</p> 
+						</div>
+					</div>
+					<br>
+					<a href="metodo.html"> Clique aqui para mais detalhes sobre o método </a>
+				</div>
+				<div class="col-md-4">
+					<img src="images/imgindicadores.svg" width="700" height="615" />
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <script type="text/javascript">
-      var _gauges = _gauges || [];
-      (function() {
-        var t = document.createElement('script');
-        t.type = 'text/javascript';
-        t.async = true;
-        t.id = 'gauges-tracker';
-        t.setAttribute('data-site-id', '6114b282f9ceca57464c607c');
-        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-        t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
+	<div id="gtco-features-4" style="padding-top: 0px">
+		<div class="gtco-container-4">
+			<div class="col-md-6">
+					<img src="images/img-comparacao.svg" width="400" height="480" />
+				</div>
+			</div>
+			<div class="col-md-4" style="margin-top: 80px">
+				<h3>CONSUMO CONSCIENTE</h3>
+				<h2>Compare antes de decidir e compre melhor</h2>
+				<p>Está em dúvida entre dois produtos ou mais? Baixe o app e compare os índices de cada um deles antes de realizar a compra.</p>
+			</div>
+		</div>
+	</div>
 
-    </script>
-  </body>
+	<div id="gtco-features-3">
+		<div class="gtco-container-4">
+			<div class="col-md-8 gtco-heading" style="margin-top: 80px">
+				<h3>BAIXE O APP</h3>
+				<h4>Comece aqui a contribuir para uma setor mais transparente</h4>
+			<div class="row" style="margin-top: 80px">
+				<p>
+					<a href="https://play.google.com/store/apps/details?id=br.mapping.app&pli=1" class="btn btn-primary btn-lg">Google Play</a> 
+					<a href="https://apps.apple.com/br/app/do-pasto-ao-prato/id6443904139" class="btn btn-primary btn-lg">Apple store</a> 
+				</p>
+			</div>	
+			</div>
+			<div class="col-md-4">
+				<img src="images/img-download.svg" width="360" height="400" display: block />
+			</div>
+		</div>
+		</div>
+	</div>
 
+	<div id="gtco-features-5" style="padding-top: 0px">
+		<div class="gtco-container">
+			<div class="col-md-6">
+				<img src="images/img-banco.svg" width="420" height="515" />
+				</div>
+			</div>
+			<div class="col-md-4" style="margin-top: 80px" >
+				<h3>EM BREVE</h3>
+				<h2>Um banco de dados inédito, conectando frigoríficos aos mercados varejistas</h2>
+				<p>Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<footer id="gtco-footer" role="contentinfo">
+		<div class="gtco-container">
+				<div class="col-xs-1">
+
+			    </div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1 text-center gtco-heading-2">
+						<h4>Quem somos?</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-3 text-center gtco-heading">
+						<p class="block">Somos uma iniciativa não governamental e sem fins lucrativos, engajada em conectar sociedade e ciência para tornar o setor da carne no Brasil mais transparente e sustentável</p> 
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-4 text-center gtco-heading">
+						<h3 class="block">Siga nossa redes sociais:</h3> 
+					</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+						<a href="https://twitter.com/dopastoaoprato"><i class="icon-twitter"></i></a>
+						<a href="https://www.instagram.com/_dopastoaoprato/"><i class="icon-instagram"></i></a>
+					</div>
+				</div>
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	 <!-- Scroll js -->
+	 <script src="js/page-scroll.js"></script>
+
+	</body>
 </html>
+
