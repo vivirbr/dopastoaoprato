@@ -1,0 +1,169 @@
+@media (max-width: 768px) {
+
+	#gtco-offcanvas{
+		background: #E15252;
+	}
+
+	.offcanvas{
+		#gtco-offcanvas{
+			width: 100%;
+			opacity: 0.9;
+			background: #E15252;
+			ul{
+				li{
+					a{
+						color: white;
+					}
+				}
+			}
+		}
+		.gtco-nav-toggle.gtco-nav-white > i{
+			background: white;
+		}
+
+		.gtco-nav-toggle.gtco-nav-white > i::before, .gtco-nav-toggle.gtco-nav-white > i::after{
+			background: white;
+		}
+	}
+		
+	body{
+		.gtco-nav-toggle.gtco-nav-white > i{
+			background: #E15252;
+		}
+
+		.gtco-nav-toggle.gtco-nav-white > i::before, .gtco-nav-toggle.gtco-nav-white > i::after{
+			background: #E15252;
+		}
+
+		.img-mobile{
+			height: inherit;
+			margin-top: 30px;
+		}
+
+		.full-width{
+			width: 100%;
+		}
+
+		.hide-mobile{
+			display: none!important;
+		}
+
+		.h1-style{
+			font-size: 35px;
+			line-height: 35px;
+			margin-top: -50px;
+		}
+
+		.overall-title-mobile{
+			font-size: 26px;
+			line-height: 30px;
+			height: 0px;
+			margin-bottom: 90px;
+			display: inline-block;
+		}
+
+		.rabisco-mobile{
+			position: relative;
+			top: -30px;
+			left: 35px;
+		}
+
+		.banner-p{
+			margin-bottom: -5px;
+			margin-top: -5px;
+		}
+
+		#gtco-features{
+			margin-top: -30px;
+		}
+
+		#gtco-features-3{
+			margin-top: 10px;
+			text-align: center;
+		}
+
+		.img-top-margin{
+			margin-top: -100px;
+		}
+
+		.veja-como-edit{
+			margin-top: 50px;
+			display: inline-block;
+			font-size: 14px;
+		}
+
+		.veja-como-title{
+			font-size: 24px;
+			line-height: 35px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			line-height: 25px;
+		}
+
+		.display-inline{
+			display: inline-block!important;
+		}
+
+		.item-click-analisar {
+		  padding-left: 0;
+		  padding-top: 15px;
+		}
+
+		.small-title-mobile{
+			font-size: 14px;
+		}
+
+		.btm-margin-mobile{
+			margin-top: -15px;
+		}
+
+		#section-faq{
+			padding-top: 40px;
+			padding-bottom: 40px;
+			h2{
+				margin-bottom: 70px;
+			}
+			.collapse-container{
+				.panel-heading{
+					.panel-title{
+						width: 100%;
+						line-height: 25px;
+						a{
+							.toggler-title{
+								font-size: 16px;
+								font-weight: bold;
+								padding-right: 35px;
+							}
+							.img-change{
+								right: 10px;
+					    }
+					    .rotate-icon{
+							}
+					    .img-closed{
+					    }
+							.collapse-two{
+								margin-top: -22px;
+							}
+						}
+						.collapse-two{
+							margin-top: -28px;
+						}
+						.collapsed{
+					    .img-open{
+					    }
+					    .img-closed{
+					    }
+					  }
+					}
+				}
+				.panel-collapse{
+					.panel-body{
+						p{
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
