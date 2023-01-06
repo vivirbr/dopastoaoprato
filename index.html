@@ -42,8 +42,11 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
-	<!-- Scroll js -->
-	<script src="js/page-scroll.js"></script>
+	<!-- Mobile Repair  -->
+	<link rel="stylesheet" href="css/mobile-repair.css">
+
+	<!-- Desktop Repair  -->
+	<link rel="stylesheet" href="css/desktop-repair.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -53,7 +56,7 @@
 	<![endif]-->
 
 	</head>
-	<body>
+	<body style="overflow-x: hidden;">
 		
 	<div class="gtco-loader"></div>
 	
@@ -83,14 +86,14 @@
 			<div class="gtco-container-2">
 				<div class="row">
 					<div class="col-md-7">
-						<h1>Ajude a criar uma pecuária mais sustentável</h1>
-						<img src="images/rabisco.svg" width="200" height="50" /> </br>
-						<p>Registre os selos presentes nos produtos e descubra mais sobre a origem e o impacto da sua carne </p>
+						<h1 class="full-width h1-style">Ajude a criar uma pecuária mais sustentável</h1>
+						<img class="rabisco-mobile"  src="images/rabisco.svg" width="200" height="50" /> </br>
+						<p class="full-width banner-p">Registre os selos presentes nos produtos e descubra mais sobre a origem e o impacto da sua carne </p>
 						<a href="https://play.google.com/store/apps/details?id=br.mapping.app&pli=1" class="btn btn-primary btn-lg">Google Play</a> 
 						<a href="https://apps.apple.com/br/app/do-pasto-ao-prato/id6443904139" class="btn btn-primary btn-lg">Apple Store</a>	
 					</div>
-					<div class="col-md-4">
-						<img src="images/ilust2.svg" width="620" height="515" />
+					<div class="col-md-4 img-top-margin hide-mobile">
+						<img class="full-width" src="images/ilust2.svg" width="620" height="515" />
 					</div>
 				</div>
 		</div>
@@ -100,14 +103,14 @@
 	<div id="gtco-features">
 		<div class="gtco-container-4">
 			<div class="col-md-7">
-				<iframe width="560" height="295" src="https://www.youtube.com/embed/UPwjH70z-go" title="Do Pasto ao Prato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe class="full-width" width="560" height="295" src="https://www.youtube.com/embed/UPwjH70z-go" title="Do Pasto ao Prato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<!-- <iframe width= "520" height="295" src="https://www.youtube.com/embed/ZdFWPtM5itc" style="margin-top: 0px"></iframe> -->
 				</div>
 			</div>
 			<div class="col-md-4" style="margin-bottom: 100px;" >
-				<h3>VEJA COMO FUNCIONA</h3>
-				<h2>Um aplicativo criado para aumentar a transparência na cadeia da carne</h2>
-				<p>Somos uma iniciativa não governamental e sem fins lucrativos, engajada em conectar sociedade e ciência para tornar o setor da carne no Brasil mais transparente e sustentável. Ao registrar os produtos em um supermercado, você passa a ser parte dessa transformação.</p>
+				<h3 class="full-width veja-como-edit">VEJA COMO FUNCIONA</h3>
+				<h2 class="full-width veja-como-title">Um aplicativo criado para aumentar a transparência na cadeia da carne</h2>
+				<p class="full-width">Somos uma iniciativa não governamental e sem fins lucrativos, engajada em conectar sociedade e ciência para tornar o setor da carne no Brasil mais transparente e sustentável. Ao registrar os produtos em um supermercado, você passa a ser parte dessa transformação.</p>
 			</div>
 		</div>
 	</div>
@@ -115,50 +118,50 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-2 text-center gtco-heading-2">
-					<h4>O QUE ANALISAMOS?</h4>
+					<h4 class="full-width analisar-title">O QUE ANALISAMOS?</h4>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-md-offset-2 text-center gtco-heading">
-					<h4>Indicadores de risco e de ilegalidade</h4>
+					<h4 class="full-width overall-title-mobile">Indicadores de risco e de ilegalidade</h4>
 				</div>
 			</div>
 			<div class="row"></div>
 				<div class="col-md-6 gtco-heading">
 					<div class="row">
-						<div class="col-xs-2">
+						<div class="col-md-2">
 							<a href="index.html"><img id="gtco-logo" src="images/ic1.svg" style="margin-top: 40px"></a>
 						</div>
-						<div class="col-xs-2 text-left menu-1">
-							<h2>Impacto ambiental</h2>
-							<p>A pecuária é a principal causa do desmatamento no Brasil, e este indicador mostra a área de desmatamento na zona de compras do frigorífico.</p> 
+						<div class="col-md-2 text-left menu-1">
+							<h2 class="full-width analise-item-title">Impacto ambiental</h2>
+							<p class="full-width display-inline">A pecuária é a principal causa do desmatamento no Brasil, e este indicador mostra a área de desmatamento na zona de compras do frigorífico.</p> 
 						</div>
 				    </div>	
 					<img src="images/Line 92.svg" width="520" height="" />
 					<div class="row">
-						<div class="col-xs-2">
+						<div class="col-md-2">
 							<a href="index.html"><img id="gtco-logo" src="images/ic2.svg" style="margin-top: 40px"></a>
 						</div>
-						<div class="col-xs-2 text-left menu-1">
-							<h2>Trabalho escravo</h2>
-							<p>Este indicador reflete o número de fazendas autuadas por condições de trabalho análogas à escravidão que fornecem ao frigorífico.</p> 
+						<div class="col-md-2 text-left menu-1">
+							<h2 class="full-width analise-item-title">Trabalho escravo</h2>
+							<p class="full-width display-inline">Este indicador reflete o número de fazendas autuadas por condições de trabalho análogas à escravidão que fornecem ao frigorífico.</p> 
 						</div>	
 				    </div>
 					<img src="images/Line 92.svg" width="520" height="" />
 					<div class="row">
-						<div class="col-xs-2">
+						<div class="col-md-2">
 							<a href="index.html"><img id="gtco-logo" src="images/ic3.svg" style="margin-top: 40px"></a>
 						</div>
-						<div class="col-xs-2 text-left menu-1">
-							<h2>Multas de inspeção sanitária</h2>
-							<p>Este indicador revela o número de multas pagas por frigorífico por má higiene ou desrespeito ao bem-estar animal, segundo o Ministério da Agricultura, Pecuária e Abastecimento.</p> 
+						<div class="col-md-2 text-left menu-1">
+							<h2 class="full-width display-inline analise-item-title">Multas de inspeção sanitária</h2>
+							<p class="full-width display-inline">Este indicador revela o número de multas pagas por frigorífico por má higiene ou desrespeito ao bem-estar animal, segundo o Ministério da Agricultura, Pecuária e Abastecimento.</p> 
 						</div>
 					</div>
 					<br>
-					<a href="https://resources.trase.earth/documents/metodo_do_pasto_ao_prato.pdf"> Clique aqui para mais detalhes sobre o método </a>
+					<a class="item-click-analisar" href="https://resources.trase.earth/documents/metodo_do_pasto_ao_prato.pdf"> <b class="text-dash">Clique aqui</b>  para mais detalhes sobre o método </a>
 				</div>
 				<div class="col-md-4">
-					<img src="images/imgindicadores.svg" width="700" height="615" />
+					<img class="full-width img-mobile" src="images/imgindicadores.svg" width="700" height="615" />
 				</div>
 			</div>
 		</div>
@@ -167,24 +170,24 @@
 	<div id="gtco-features-4" style="padding-top: 0px">
 		<div class="gtco-container-4">
 			<div class="col-md-6">
-					<img src="images/img-comparacao.svg" width="400" height="480" />
+					<img class="full-width img-mobile" src="images/img-comparacao.svg" width="400" height="480" />
 				</div>
 			</div>
 			<div class="col-md-4" style="margin-top: 80px">
-				<h3>CONSUMO CONSCIENTE</h3>
-				<h2>Compare antes de decidir e compre melhor</h2>
-				<p>Está em dúvida entre dois produtos ou mais? Baixe o app e compare os índices de cada um deles antes de realizar a compra.</p>
+				<h3 class="full-width small-title-mobile">CONSUMO CONSCIENTE</h3>
+				<h2 class="full-width overall-title-mobile">Compare antes de decidir e compre melhor</h2>
+				<p class="full-width p-tyle">Está em dúvida entre dois produtos ou mais? Baixe o app e compare os índices de cada um deles antes de realizar a compra.</p>
 			</div>
 		</div>
 	</div>
 
 	<div id="gtco-features-3">
 		<div class="gtco-container-4">
-			<div class="col-md-8 gtco-heading" style="margin-top: 80px">
-				<h3>BAIXE O APP</h3>
-				<h4>Comece aqui a contribuir para uma setor mais transparente</h4>
+			<div class="col-md-8 gtco-heading" style="margin-top: 50px;">
+				<h3 class="full-width small-title-mobile">BAIXE O APP</h3>
+				<h4 class="full-width display-inline overall-title-mobile">Comece aqui a contribuir para uma setor mais transparente</h4>
 			<div class="row" style="margin-top: 80px">
-				<p>
+				<p class="full-width btm-margin-mobile">
 					<a href="https://play.google.com/store/apps/details?id=br.mapping.app&pli=1" class="btn btn-primary btn-lg">Google Play</a> 
 					<a href="https://apps.apple.com/br/app/do-pasto-ao-prato/id6443904139" class="btn btn-primary btn-lg">Apple store</a> 
 				</p>
@@ -200,16 +203,164 @@
 	<div id="gtco-features-5" style="padding-top: 0px">
 		<div class="gtco-container">
 			<div class="col-md-6">
-				<img src="images/img-banco.svg" width="420" height="515" />
+				<img class="full-width img-mobile" src="images/img-banco.svg" width="420" height="515" />
 				</div>
 			</div>
 			<div class="col-md-4" style="margin-top: 60px" >
-				<h3>EM BREVE</h3> 
-				<h2>Um banco de dados inédito, conectando frigoríficos aos mercados varejistas</h2> <br><br>
-				<p>Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.</p>
+				<h3 class="full-width small-title-mobile">EM BREVE</h3> 
+				<h2 class="full-width display-inline overall-title-mobile">Um banco de dados inédito, conectando frigoríficos aos mercados varejistas</h2> <br><br>
+				<p class="full-width display-inline">Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.</p>
 			</div>
 		</div>
 	</div>
+
+	<section id="section-faq">
+		<div class="gtco-container">
+			<div class="row">
+				<h2 class="full-width overall-title-mobile">Perguntas Frequentes </h2>
+	      <div class="collapse-container">
+	      	<div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a id="imgToggler" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+		            <span class="toggler-title">
+		            	Qual é nossa meta? 
+		            </span>     
+		            <!-- <span class="img-change rotate-icon"> -->
+		            	<img class="img-change" src="images/plus-circle.png">
+		            	<!-- <img class="img-closed" src="images/minus-circle.png"> -->
+		            <!-- </span>      -->
+		          </a>
+		        </h4>
+		      </div>
+		      <div id="collapseOne" class="panel-collapse collapse in">
+		        <div class="panel-body">
+							<p>
+								Nosso sonho é construir ferramentas que revelem de onde vem a sua comida, e, por meio de iniciativas colaborativas, melhorar a transparência das cadeias de abastecimento no Brasil e no mundo.
+							</p>
+							<p>
+								Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.
+							</p>
+		        </div>
+		      </div>
+	      </div>
+	      <div class="collapse-container">
+	      	<div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a id="imgToggler" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+		            <span class="toggler-title">
+		            	Por que a transparência na indústria da carne é relevante?   
+		            </span>  
+		            <!-- <span class="img-change"> -->
+		            	<img class="img-change collapse-two" src="images/plus-circle.png">
+		            	<!-- <img class="img-closed" src="images/minus-circle.png"> -->
+		            <!-- </span>  -->
+		          </a>
+		        </h4>
+		      </div>
+		      <div id="collapseTwo" class="panel-collapse collapse">
+		        <div class="panel-body">
+							<p>
+								Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.
+							</p>
+		      	</div>
+		      </div>
+	      </div>
+
+	      <div class="collapse-container">
+	      	<div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a id="imgToggler" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+		            <span class="toggler-title">
+		            	Como serão usados os dados coletados?  
+		            </span>  
+		            <!-- <span class="img-change"> -->
+		            	<img class="img-change" src="images/plus-circle.png">
+		            	<!-- <img class="img-closed" src="images/minus-circle.png"> -->
+		            <!-- </span>  -->
+		          </a>
+		        </h4>
+		      </div>
+		      <div id="collapseThree" class="panel-collapse collapse">
+		        <div class="panel-body">
+							<p>
+								Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.
+							</p>
+		      	</div>
+		      </div>
+	      </div>
+
+	      <div class="collapse-container">
+	      	<div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a id="imgToggler" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+		            <span class="toggler-title">
+		            	Quem é a equipe por trás do app?
+		            </span>  
+		            <!-- <span class="img-change"> -->
+		            	<img class="img-change" src="images/plus-circle.png">
+		            	<!-- <img class="img-closed" src="images/minus-circle.png"> -->
+		            <!-- </span>  -->
+		          </a>
+		        </h4>
+		      </div>
+		      <div id="collapseFour" class="panel-collapse collapse">
+		        <div class="panel-body">
+							<p>
+								Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.
+							</p>
+		      	</div>
+		      </div>
+	      </div>
+
+	      <div class="collapse-container">
+	      	<div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a id="imgToggler" data-toggle="collapse" data-parent="#accordion" href="#collapseFifth">
+		            <span class="toggler-title">
+		            	Por que selecionamos esses indicadores?
+		            </span>  
+		            <!-- <span class="img-change"> -->
+		            	<img class="img-change" src="images/plus-circle.png">
+		            	<!-- <img class="img-closed" src="images/minus-circle.png"> -->
+		            <!-- </span>  -->
+		          </a>
+		        </h4>
+		      </div>
+		      <div id="collapseFifth" class="panel-collapse collapse">
+		        <div class="panel-body">
+							<p>
+								Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.
+							</p>
+		      	</div>
+		      </div>
+	      </div>
+
+	      <div class="collapse-container">
+	      	<div class="panel-heading">
+		        <h4 class="panel-title">
+		          <a id="imgToggler" data-toggle="collapse" data-parent="#accordion" href="#collapseSixth">
+		            <span class="toggler-title">
+		            	Todos os dados são públicos?  
+		            </span>  
+		            <!-- <span class="img-change"> -->
+		            	<img class="img-change" src="images/plus-circle.png">
+		            	<!-- <img class="img-closed" src="images/minus-circle.png"> -->
+		            <!-- </span>  -->
+		          </a>
+		        </h4>
+		      </div>
+		      <div id="collapseSixth" class="panel-collapse collapse">
+		        <div class="panel-body">
+							<p>
+								Dispondo de mais informações, setores privados, públicos e da sociedade civil poderão desenhar ações e intervenções mais efetivas. Construiremos juntos uma cadeia de alimentos mais ética e sustentável.
+							</p>
+		      	</div>
+		      </div>
+	      </div>
+
+			</div>
+		</div>
+	</section>
 
 
 
@@ -219,22 +370,22 @@
 
 			    </div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-1 text-center gtco-heading-2">
-						<h4>Quem somos?</h4>
+					<div class="col-md-12 text-center gtco-heading-2">
+						<h4 class="full-width-desktop">Quem somos?</h4>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-3 text-center gtco-heading">
-						<p class="block">Somos uma iniciativa não governamental e sem fins lucrativos, engajada em conectar sociedade e ciência para tornar o setor da carne no Brasil mais transparente e sustentável</p> 
+					<div class="col-md-12 text-center gtco-heading">
+						<p class="block one-third-width display-inline">Somos uma iniciativa não governamental e sem fins lucrativos, engajada em conectar sociedade e ciência para tornar o setor da carne no Brasil mais transparente e sustentável</p> 
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-8 col-md-offset-4 text-center gtco-heading">
-						<h3 class="block">Siga nossa redes sociais:</h3> 
+					<div class="col-md-12 text-center gtco-heading">
+						<h3 class="block full-width-desktop">Siga nossa redes sociais:</h3> 
 					</div>
 
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<div class="col-md-12 text-center gtco-heading">
 						<a href="https://twitter.com/dopastoaoprato"><i class="icon-twitter"></i></a>
 						<a href="https://www.instagram.com/_dopastoaoprato/"><i class="icon-instagram"></i></a>
 					</div>
@@ -262,10 +413,15 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
+	<!-- Scroll js -->
+	<script src="js/page-scroll.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-	 <!-- Scroll js -->
-	 <script src="js/page-scroll.js"></script>
+	<script type="text/javascript">
+		$("#imgToggler .img-change").click(function(){
+		  $(this).toggleClass("rotate-icon");
+		});
+	</script>
 
 	</body>
 </html>
